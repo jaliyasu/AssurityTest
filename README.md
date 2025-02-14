@@ -11,10 +11,11 @@ Ensure you have the following installed before running the tests:
 
 ## 📌 Setup Instructions
 
-### 🔹 Step 1: Clone or Download the Repository
+### 🔹 Step 1: Clone or Download the Repository and switch to main branch
 
 ```bash
 git clone https://github.com/jaliyasu/AssurityTest.git
+git checkout main
 cd AssurityTest
 ```
 
@@ -31,19 +32,19 @@ Navigate to the **test_script** folder containing `api_test_catagory.py` and exe
 
 ```bash
 cd test_script
-pytest api_test_catagory.py
+pytest api_test_category.py
 ```
 
 ### 🔹 Run with Detailed Output
 For more details on test execution:
 ```bash
-pytest -v api_test_catagory.py
+pytest -v api_test_category.py
 ```
 
 ### 🔹 Run and Generate HTML Report
 To generate an **HTML test report**, use:
 ```bash
-pytest api_test_catagory.py --html=report.html --self-contained-html
+pytest api_test_category.py --html=report.html --self-contained-html
 ```
 After execution, open **`report.html`** in a browser to view the results.
 
